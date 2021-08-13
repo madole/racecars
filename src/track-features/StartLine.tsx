@@ -2,7 +2,7 @@ import React, { useEffect, VFC } from "react";
 import { useMap } from "../MapContext";
 import startlineGeojson from "./data/start-line.json";
 
-const PitLine: VFC = () => {
+const Startline: VFC = () => {
   const map = useMap();
   useEffect(() => {
     if (!map) return;
@@ -30,4 +30,4 @@ const PitLine: VFC = () => {
   return null;
 };
 
-export default PitLine;
+export default Startline;
